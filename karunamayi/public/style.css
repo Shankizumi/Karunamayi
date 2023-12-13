@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("d4.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+
+html::-webkit-scrollbar{
+    width: 2vw;
+}
+html::-webkit-scrollbar-track{
+    background-color: #e7f6fe;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 20px;
+    border: 10px solid transparent;
+    background-clip:content-box;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+  }
+
+span{
+    color: red;
+    cursor: pointer;
+}

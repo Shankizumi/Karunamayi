@@ -1,0 +1,99 @@
+.footer {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+  }
+  
+  .footer img {
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    padding: 10px;
+    margin-top: -220px;
+    background-color: #e7f6fe;
+    opacity: .8;
+  }
+  
+  .social {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .social i {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .address{
+    padding: 10px;
+  }
+  
+  .address h3 {
+    font-size: small;
+    padding: 3px 0px;
+  }
+  
+  .copyright {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+  }
+  
+  .policy {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .policy a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .policy p {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 650px) {
+    .copyright {
+      flex-direction: column;
+    }
+    .policy {
+      margin: auto;
+    }
+    .container{
+        margin-top: -200px;
+    }
+    .footer img{
+        opacity: 0;
+    }
+  }
+  
+  .fa-facebook:hover {
+    filter: drop-shadow(0px 0px 10px #1877f2);
+  }
+  
+  .fa-instagram:hover {
+    filter: drop-shadow(0px 0px 10px #ee2a7b);
+  }
+  
+  .fa-square-x-twitter:hover {
+    filter: drop-shadow(0px 0px 10px #00acee);
+  }
+  
+  .fa-whatsapp:hover {
+    filter: drop-shadow(0px 0px 10px green);
+  }
+  
+  .fa-linkedin:hover {
+    filter: drop-shadow(0px 0px 10px #0072b1);
+  }
+  

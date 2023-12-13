@@ -1,0 +1,119 @@
+.members-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content img {
+  width: 250px;
+  height: 250px;
+}
+
+.b2 {
+  width: 50%;
+}
+.b2 h3 {
+  font-size: 4vh;
+}
+.b2 h5 {
+  font-size: 2.5vh;
+}
+
+.slogan {
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+  background-color: black;
+  background: rgb(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+.text-content {
+  margin: 10px;
+  width: 95%;
+  border-left: 5px solid rgb(220, 20, 20);
+  border-right: 5px solid rgb(220, 20, 20);
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  overflow: hidden;
+  width: 90%;
+}
+.text-content h1 {
+  padding: 10px;
+}
+.text-content h5 {
+  padding: 10px;
+}
+.text-content h3 {
+  color: red;
+  padding: 10px;
+}
+.text-content p {
+  padding: 5px;
+}
+.text-content a {
+  text-decoration: none;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.details h1 {
+  padding: 20px;
+}
+.details a {
+  text-decoration: none;
+  color: rgb(220, 20, 20);
+}
+.details p {
+  color: blue;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1083px) {
+  .members-container {
+    padding-top: 40vh;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .members-container {
+    padding-top: 27vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .text-content {
+    flex-direction: column;
+  }
+  .slogan {
+    font-size: 1.8vh;
+  }
+  .b2 h3 {
+    font-size: 3vh;
+  }
+  .b2 h5 {
+    font-size: 2vh;
+  }
+}

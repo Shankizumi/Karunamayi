@@ -1,0 +1,167 @@
+.activityContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
+}
+
+.sloganA {
+  width: 300px;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  color: white;
+  font-size: 3vh;
+  background-color: black;
+  background: rgb(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.activityBox {
+  padding: 20px;
+  width: 90vw;
+  margin: 20px;
+  display: flex;
+  color: black;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.activity-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.certificate img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.certificate {
+  object-fit: contain;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.carousell {
+  width: 70vw;
+  height: 80vh;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carousell > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slidee {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slidee > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 40px;
+}
+
+.slidee[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+@media only screen and (max-width: 1095px) {
+  .carousell {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 1083px) {
+  .activityContainer {
+    padding-top: 40vh;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .activityContainer {
+    padding-top: 28vh;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .carousell {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousell {
+    width: 90vw;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .sloganA {
+    font-size: 1.8vh;
+  }
+  .activityBox {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
